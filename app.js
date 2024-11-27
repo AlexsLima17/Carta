@@ -28,6 +28,18 @@ function sortear() {
 
     //renderizar o centro da carta
     let cc = document.getElementById('centroCarta')
+    if(facesSorteada === 'J') {
+        cc.innerHTML = `<img src="./img/valete.png"`
+    }else if(facesSorteada ==='Q'){
+        cc.innerHTML = `<img src="./img/dama.png"`
+    }else if(facesSorteada ==='K'){
+        cc.innerHTML = `<img src="./img/rei.png"`
+    }else{
+        cc.innerHTML = `${nipeSorteado}`
+        cc.style.color = cor 
+
+    }
+
     cc.innerHTML = `${nipeSorteado}`
     cc.style.color = cor 
 
