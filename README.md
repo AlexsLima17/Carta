@@ -1,2 +1,4 @@
 # Carta
-Mini app que faaz sorteio de uma Carta 
+Mini app que faz sorteio de uma Carta 
+
+![](img/qrcode.png)
