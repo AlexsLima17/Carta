@@ -2,7 +2,7 @@
     "name": "Sorteio de Carta",
     "short_name": "Carta",
     "description": "Um aplicativo para sortear cartas aleatórias.",
-    "start_url": "/carta/",
+    "start_url": "/Carta/",
     "scope":"/",
     "display": "standalone",
     "orientation": "portrait-primary",
