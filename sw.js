@@ -10,7 +10,7 @@ self.addEventListener('install', (event) => {
            cache.add('./Carta/img/rei.png')
            cache.add('./Carta/img/icon-192x192.png')
            cache.add('./Carta/img/icon-512x512.png')
-      ;
+           ;
       })
     );
   });

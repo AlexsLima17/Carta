@@ -3,16 +3,6 @@
  * @author Alex Lima
  */
 
-/**
-
-* Sorteio de uma carta
-
-* Exemplo de uso de vetor
-
-* @author João Victor
-
-*/
- 
 function sortear() {
 
     let nipes = ['♥','♦','♣','♠'];
@@ -66,17 +56,4 @@ function sortear() {
     document.getElementById('infDir').style.color = cor;
 
 }
- 
-// Registrar Service Worker para PWA
-
-if ('serviceWorker' in navigator) {
-
-    navigator.serviceWorker.register('sw.js')
-
-        .then(() => console.log('Service Worker registrado!'))
-
-        .catch(err => console.error('Erro no Service Worker:', err));
-
-}
-
  
